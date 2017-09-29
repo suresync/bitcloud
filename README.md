@@ -12,6 +12,12 @@ Max Coin in 8 Years ~42 Mio<br>
 
 <code>apt-get update</code><br>
 <code>apt-get upgrade -y</code><br>
+<code>apt-get --assume-yes install ufw</code></br>
+<code>ufw allow OpenSSH</code></br>
+<code>ufw allow 8329</code></br>
+<code>ufw default deny incoming</code></br>
+<code>ufw default allow outgoing</code></br>
+<code>ufw --force enable</code></br>
 <code>apt-get install software-properties-common -y</code><br>
 <code>add-apt-repository ppa:bitcoin/bitcoin -y</code><br>
 <code>apt-get update</code><br>

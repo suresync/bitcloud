@@ -30,7 +30,7 @@ Let's create the initial bitcloud.conf file!</br>
 <code>mkdir ~/.bitcloud</code></br>
 <code>cd ~/.bitcloud</code></br>
 
-Create your bitcloud.conf file here and replace everything between {}. Leave the commented out stuff till later:</br>
+Create your bitcloud.conf file here and replace everything between {}.</br>
 
 rpcuser={user}</br>
 rpcpassword={some pass}</br>

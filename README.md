@@ -25,10 +25,10 @@ Max Coin in 8 Years ~42 Mio<br>
 <code>wget https://github.com/LIMXTEC/Bitcloud/releases/download/v.2.0.0.3/Linux.2-0-0-3.tar.gz</code><br>
 <code>tar -xvzf Linux.2-0-0-3.tar.gz</code><br>
 
-Let's create the initial bitcloud.conf file!
+Let's create the initial bitcloud.conf file!</br>
 
-<code>mkdir ~/.bitcloud</code>
-<code>cd ~/.bitcloud</code>
+<code>mkdir ~/.bitcloud</code></br>
+<code>cd ~/.bitcloud</code></br>
 
 Create your bitcloud.conf file here and replace everything between {}. Leave the commented out stuff till later:</br>
 
@@ -44,5 +44,5 @@ maxconnections=100</br>
 logtimestamps=1</br>
 addnode=199.233.246.209:8329</br>
   
-<code>cd ~</code>
-<code>bitcloudd</code>
+<code>cd ~</code></br>
+<code>bitcloudd</code></br>

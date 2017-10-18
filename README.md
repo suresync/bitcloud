@@ -30,22 +30,19 @@ Let's create the initial bitcloud.conf file!
 <code>mkdir ~/.bitcloud</code>
 <code>cd ~/.bitcloud</code>
 
-Create your bitcloud.conf file here and replace everything between <>. Leave the commented out stuff till later:
+Create your bitcloud.conf file here and replace everything between {}. Leave the commented out stuff till later:</br>
 
-rpcuser=<user>
-rpcpassword=<some pass>
-discover=1
-externalip=<your external ip>
-rpcallowip=127.0.0.1
-daemon=1
-server=1
-listen=1
-maxconnections=100
-# masternode=1
-# masternodeprivkey=safdasdfasdfsadfsadfsadfsafd
-# masternodeaddr=<your external ip address>:8329
-logtimestamps=1
-addnode=199.233.246.209:8329
+rpcuser={user}</br>
+rpcpassword={some pass}</br>
+discover=1</br>
+externalip={your external ip}</br>
+rpcallowip=127.0.0.1</br>
+daemon=1</br>
+server=1</br>
+listen=1</br>
+maxconnections=100</br>
+logtimestamps=1</br>
+addnode=199.233.246.209:8329</br>
   
 <code>cd ~</code>
 <code>bitcloudd</code>

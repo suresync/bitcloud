@@ -24,3 +24,28 @@ Max Coin in 8 Years ~42 Mio<br>
 <code>apt-get --assume-yes install git unzip libboost-program-options-dev libboost-test-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libevent-dev libzmq3-dev libboost-filesystem1.58.0 libdb4.8++ libevent-2.0-5 libevent-core-2.0-5 libevent-pthreads-2.0-5 libminiupnpc10 libsodium18 libboost-system1.58.0 libboost-thread1.58.0 libevent-2.0-5 libzmq5 libboost-chrono1.58.0</code><br>
 <code>wget https://github.com/LIMXTEC/Bitcloud/releases/download/v.2.0.0.3/Linux.2-0-0-3.tar.gz</code><br>
 <code>tar -xvzf Linux.2-0-0-3.tar.gz</code><br>
+
+Let's create the initial bitcloud.conf file!
+
+<code>mkdir ~/.bitcloud</code>
+<code>cd ~/.bitcloud</code>
+
+Create your bitcloud.conf file here and replace everything between <>. Leave the commented out stuff till later:
+
+rpcuser=<user>
+rpcpassword=<some pass>
+discover=1
+externalip=<your external ip>
+rpcallowip=127.0.0.1
+daemon=1
+server=1
+listen=1
+maxconnections=100
+# masternode=1
+# masternodeprivkey=safdasdfasdfsadfsadfsadfsafd
+# masternodeaddr=<your external ip address>:8329
+logtimestamps=1
+addnode=199.233.246.209:8329
+  
+<code>cd ~</code>
+<code>bitcloudd</code>

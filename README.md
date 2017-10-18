@@ -31,8 +31,8 @@ Let's create the initial bitcloud.conf file!</br>
 <code>cd ~/.bitcloud</code></br>
 
 Create your bitcloud.conf file here and replace everything between {}.</br>
-<code>nano bitcloud.conf</conf></br>
-
+<code>nano bitcloud.conf</code></br>
+</br>
 rpcuser={user}</br>
 rpcpassword={some pass}</br>
 discover=1</br>

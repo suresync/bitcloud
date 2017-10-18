@@ -21,7 +21,7 @@ Max Coin in 8 Years ~42 Mio<br>
 <code>apt-get install software-properties-common -y</code><br>
 <code>add-apt-repository ppa:bitcoin/bitcoin -y</code><br>
 <code>apt-get update</code><br>
-<code>apt-get --assume-yes install git unzip libboost-program-options-dev libboost-test-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libevent-dev libzmq3-dev libboost-filesystem1.58.0 libdb4.8++ libevent-2.0-5 libevent-core-2.0-5 libevent-pthreads-2.0-5 libminiupnpc10 libsodium18 libboost-system1.58.0 libboost-thread1.58.0 libevent-2.0-5 libzmq5 libboost-chrono1.58.0</code><br>
+<code>apt-get --assume-yes install nano git unzip libboost-program-options-dev libboost-test-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libevent-dev libzmq3-dev libboost-filesystem1.58.0 libdb4.8++ libevent-2.0-5 libevent-core-2.0-5 libevent-pthreads-2.0-5 libminiupnpc10 libsodium18 libboost-system1.58.0 libboost-thread1.58.0 libevent-2.0-5 libzmq5 libboost-chrono1.58.0</code><br>
 <code>wget https://github.com/LIMXTEC/Bitcloud/releases/download/v.2.0.0.3/Linux.2-0-0-3.tar.gz</code><br>
 <code>tar -xvzf Linux.2-0-0-3.tar.gz</code><br>
 
@@ -31,6 +31,7 @@ Let's create the initial bitcloud.conf file!</br>
 <code>cd ~/.bitcloud</code></br>
 
 Create your bitcloud.conf file here and replace everything between {}.</br>
+<code>nano bitcloud.conf</conf></br>
 
 rpcuser={user}</br>
 rpcpassword={some pass}</br>

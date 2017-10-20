@@ -46,4 +46,4 @@ logtimestamps=1</br>
 addnode=199.233.246.209:8329</br>
   
 <code>cd ~</code></br>
-<code>bitcloudd</code></br>
+<code>.\bitcloudd</code></br>
